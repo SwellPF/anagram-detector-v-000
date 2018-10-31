@@ -11,6 +11,4 @@ attr_accessor :word
   anagrams.select {|x| x.split("").sort == @word.split("").sort}
   end
   
-  
-  
 end
